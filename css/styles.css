@@ -1,0 +1,6 @@
+* {background-color: green;}
+
+button {color: red;
+min-width: 200px; min-height: 200px;
+font-size: xx-large;
+}
