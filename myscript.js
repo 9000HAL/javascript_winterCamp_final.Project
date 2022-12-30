@@ -11,4 +11,7 @@ console.log("GABE SANCHEZ");
 
 console.log("ENCHILADAS SUIZAS");
 
+const myArr = ["Orange", "Banana", "Mango", "Kiwi"];
+console.log(myArr);
+
 
