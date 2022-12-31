@@ -53,3 +53,44 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
+
+
+
+
+
+
+
+    <!------JAVASCRIPT DUMP
+      // THESE BELOW ARE ERRORING OUT ----- !!!!!!!!!!!!----?
+
+let x = 1;
+if (x === 1) {
+  let x = 2;
+
+  console.log(x);
+}
+console.log(x);
+
+
+
+function letTest() {
+  let x = 1;
+  {
+    let x = 2;  // different variable
+    console.log(x);  // 2
+  }
+  console.log(x);  // 1
+}
+
+
+
+let  x = 10;
+// Here x is 10
+{  
+  let x = 2;
+  // Here x is 2
+}
+// Here x is 10
+document.getElementById("demo").innerHTML = x;
+
+// THESE ABOVE ARE ERRORING OUT ----- !!!!!!!!!!!!----?------>
