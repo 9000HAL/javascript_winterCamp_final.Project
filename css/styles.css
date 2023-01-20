@@ -1,6 +1,18 @@
-* {background-color: red;}
-
-button {color: green;
-min-width: 200px; min-height: 200px;
-font-size: xx-large;
-}
+*{
+    font-family: sans-serif;
+  }
+  
+  h1,
+  h3
+  {
+    text-align: center;
+  }
+  
+  .message {
+    text-decoration: underline;
+  }
+  
+  .report-card {
+    background-color: blanchedalmond;
+    padding: 2.5%;
+  }
