@@ -43,6 +43,3 @@ $(document).ready(function(){
 
 
 
-
-
-
