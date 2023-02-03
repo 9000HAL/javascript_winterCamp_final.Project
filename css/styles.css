@@ -1,18 +1,65 @@
-*{
-    font-family: sans-serif;
+.page {
+    max-width: 960px;
+    min-width: 300px;
+    margin: 0 auto;
   }
   
-  h1,
-  h3
-  {
+  html {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    background-color: #f8f8f8;
     text-align: center;
   }
   
-  .message {
-    text-decoration: underline;
+  header {
+    text-align: center;
+  }
+  header span {
+    font-size: 60px;
+    font-size: 2em;
+    color: #f16059;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
   }
   
-  .report-card {
-    background-color: blanchedalmond;
-    padding: 2.5%;
+  .ball {
+  position: relative;
+  }
+  .ball img{
+    width: 100%;
+    max-width: 40em;
+  }
+  .answer {
+    color: yellow;
+    text-transform: uppercase;
+    margin: 0;
+    position: absolute;
+    top: 38%;
+    left: 46%;
+    width: 11%;
+    font-size: 125%;
+  }
+  
+  #questionButton {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-size: 1.875em;
+    color: #f8f8f8;
+    background-color: #f16059;
+    border-radius: 5px;
+    border: none;
+    padding: .5em 1em;
+    width: 80%;
+    max-width: 15em;
+    margin-top: 1em;
+  }
+  
+  footer p {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-size: .75em;
   }
