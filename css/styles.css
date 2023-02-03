@@ -6,8 +6,8 @@
   
   html {
     font-family: "Montserrat", sans-serif;
-    font-size: 16px;
-    color: #454545;
+    font-size: 24px;
+    color: black;
     margin: 0px;
     padding: 0px;
     background-color: #f8f8f8;
@@ -34,14 +34,14 @@
     max-width: 40em;
   }
   .answer {
-    color: #222;
+    color: yellow;
     text-transform: uppercase;
     margin: 0;
     position: absolute;
     top: 38%;
     left: 46%;
     width: 11%;
-    font-size: 80%;
+    font-size: 125%;
   }
   
   #questionButton {
