@@ -30,16 +30,3 @@ $(document).ready(function(){
   $("#questionButton").click( onClick );
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
